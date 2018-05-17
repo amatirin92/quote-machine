@@ -1,0 +1,23 @@
+<!doctype html>
+<html ng-app="myApp" ng-controller = 'mainController'>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+<script src="app.js"></script>
+<script src="controller.js"></script>
+
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="quote-box">
+<div class="quote-text" ng-class="class" ng-bind="quote"></div>
+    <div class="quote-author">{{author}}</div>
+
+</div>
+</body>
+
+</html>
+
+
